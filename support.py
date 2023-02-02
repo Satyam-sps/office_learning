@@ -330,6 +330,7 @@ def highlight_cells(val):
     else:
         color = 'white'
     return f'background-color: {color}'
+
         
 def get_colored_formatted_excel(df1,overtime_pair_df,manually_verify_df):
     x = df1.xs('Hrs',level=1,axis=1,drop_level=False)
